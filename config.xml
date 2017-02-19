@@ -5,7 +5,14 @@
 	<description>
 		A blank PhoneGap app.
 	</description>
-	<author email="rafa.albelda@gmail.com" href="http://phonegap.com">Rafa Albelda</author>
+	<author email="rafa.albelda@gmail.com" href="http://phonegap.com">Rafa Albelda
+	</author>
 	<content src="index.html" />
+	<plugin name="org.apache.cordova.device" spec="~1.1.0"/>
+    <plugin name="org.apache.cordova.device-motion" spec="~1.1.0"/>
 	<access origin="*" />
+	<allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <platform name="android">
+     </platform>
 </widget>
