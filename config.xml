@@ -1,21 +1,23 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.phonegap.myGame" version="1.0.0"
-	xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-	<name>MyGame</name>
-	<description>
+<widget id="com.phonegap.myGame" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>MyGame</name>
+    <description>
 		A blank PhoneGap app.
 	</description>
-	<author email="rafa.albelda@gmail.com" href="http://phonegap.com">Rafa Albelda
+    <author email="rafa.albelda@gmail.com" href="http://phonegap.com">Rafa Albelda
 	</author>
-	<content src="index.html" />
-	<plugin name="org.apache.cordova.device" spec="~1.1.0"/>
-    <plugin name="org.apache.cordova.device-motion" spec="~1.1.0"/>
+    <content src="index.html" />
+    <plugin name="org.apache.cordova.device" spec="~1.1.0" />
+    <plugin name="org.apache.cordova.device-motion" spec="~1.1.0" />
     <feature name="Accelerometer">
-    	<param name="android-package" value="org.apache.cordova.AccelListener" />
-	</feature>
-	<access origin="*" />
-	<allow-intent href="http://*/*" />
+        <param name="android-package" value="org.apache.cordova.AccelListener" />
+    </feature>
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
     <platform name="android">
-     </platform>
-<engine name="android" spec="6.2.0-nightly.2016.12.9.6c60dc5d" /></widget>
+    </platform>
+    <engine name="android" spec="6.2.0-nightly.2016.12.9.6c60dc5d" />
+    <plugin name="cordova-plugin-device-motion" spec="~1.2.2" />
+    <plugin name="cordova-plugin-device" spec="~1.1.4" />
+</widget>
