@@ -2,7 +2,15 @@
     "cordova-plugin-device-motion": {
         "source": {
             "type": "registry",
-            "id": "cordova-plugin-device-motion"
+            "id": "cordova-plugin-device-motion@~1.1.0"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-device": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-device@~1.1.0"
         },
         "is_top_level": true,
         "variables": {}

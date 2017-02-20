@@ -10,9 +10,12 @@
 	<content src="index.html" />
 	<plugin name="org.apache.cordova.device" spec="~1.1.0"/>
     <plugin name="org.apache.cordova.device-motion" spec="~1.1.0"/>
+    <feature name="Accelerometer">
+    	<param name="android-package" value="org.apache.cordova.AccelListener" />
+	</feature>
 	<access origin="*" />
 	<allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
     <platform name="android">
      </platform>
-</widget>
+<engine name="android" spec="6.2.0-nightly.2016.12.9.6c60dc5d" /></widget>
