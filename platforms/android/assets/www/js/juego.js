@@ -235,7 +235,7 @@ var app={
 
   registraDireccion: function(datosAceleracion){
     velocidadX = datosAceleracion.x ;
-    velocidadY = datosAceleracion.y - 3 ;
+    velocidadY = datosAceleracion.y - 1 ;
   }
 
 };
