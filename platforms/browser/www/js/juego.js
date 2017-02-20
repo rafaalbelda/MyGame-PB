@@ -115,7 +115,6 @@ var app={
       
       if (puntuacion >= 0)
       {
-	      nave.body.velocity.y =((velocidadY-5) * factorDificultad);
 	      nave.body.velocity.x = (velocidadX * (-1 * factorDificultad));
 	      if (velocidadX > 2) {
 	    	  nave.animations.currentFrame = 2;
