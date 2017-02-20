@@ -35,6 +35,10 @@ var app={
     }
 
     function create() {
+
+      // do not allow screen off
+      window.plugins.insomnia.keepAwake();
+
       // fondo
       fondo = game.add.sprite(0, 0, 'fondo');
       fondo.height = alto;

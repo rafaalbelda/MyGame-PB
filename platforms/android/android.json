@@ -15,6 +15,10 @@
                         {
                             "xml": "<feature name=\"Accelerometer\"><param name=\"android-package\" value=\"org.apache.cordova.devicemotion.AccelListener\" /></feature>",
                             "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Insomnia\"><param name=\"android-package\" value=\"nl.xservices.plugins.Insomnia\" /></feature>",
+                            "count": 1
                         }
                     ]
                 }
@@ -26,6 +30,9 @@
             "PACKAGE_NAME": "com.phonegap.myGame"
         },
         "cordova-plugin-device-motion": {
+            "PACKAGE_NAME": "com.phonegap.myGame"
+        },
+        "cordova-plugin-insomnia": {
             "PACKAGE_NAME": "com.phonegap.myGame"
         }
     },
@@ -54,10 +61,19 @@
             "clobbers": [
                 "navigator.accelerometer"
             ]
+        },
+        {
+            "id": "cordova-plugin-insomnia.Insomnia",
+            "file": "plugins/cordova-plugin-insomnia/www/Insomnia.js",
+            "pluginId": "cordova-plugin-insomnia",
+            "clobbers": [
+                "window.plugins.insomnia"
+            ]
         }
     ],
     "plugin_metadata": {
         "cordova-plugin-device": "1.1.4",
-        "cordova-plugin-device-motion": "1.2.2"
+        "cordova-plugin-device-motion": "1.2.2",
+        "cordova-plugin-insomnia": "4.3.0"
     }
 }

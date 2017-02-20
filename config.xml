@@ -20,4 +20,5 @@
     <engine name="android" spec="6.2.0-nightly.2016.12.9.6c60dc5d" />
     <plugin name="cordova-plugin-device-motion" spec="~1.2.2" />
     <plugin name="cordova-plugin-device" spec="~1.1.4" />
+    <plugin name="cordova-plugin-insomnia" spec="~4.3.0" />
 </widget>
